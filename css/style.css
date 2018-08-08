@@ -19,7 +19,7 @@ img {
 
 .menu li {
     display: inline;
-    padding: 60px;
+    padding: 6px;
     color: #b21834;
     font-weight: bold;
 }
@@ -29,3 +29,9 @@ h1 {
     font-family: "Eras Bold ITC";
 
 }
+
+body {
+    padding: 6px;
+    background-image: url("../images/pozadi1.jpg");
+}
+
