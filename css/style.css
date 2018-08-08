@@ -10,6 +10,9 @@ img.center {
     margin: 0 auto;
 }
 
+p.center {
+    text-align: center;
+}
 
 .menu {
     list-style-type: none;
