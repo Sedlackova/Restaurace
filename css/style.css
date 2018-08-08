@@ -3,10 +3,10 @@
     color: black;
 }
 
-img {
-    width: 20%;
-    display: block;
-    margin: 0 auto;
+img.center {
+  width: 20%;
+  display: block;
+  margin: 0 auto;
 }
 
 .menu {
@@ -49,4 +49,15 @@ a:hover {
 
 a {
     color: #64440c;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    height: 100px;
+    width: auto;
+    margin-right: 20px;
 }
