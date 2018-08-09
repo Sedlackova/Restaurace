@@ -39,7 +39,11 @@ h1 {
     font-family: "Verdana";
     color: #64440c;
     text-shadow: 2px 2px #ffe9b9;
+}
 
+h2 {
+    font-family: Amble-Regular;
+    color: #64440c;
 }
 
 body {
