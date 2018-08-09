@@ -2,7 +2,10 @@
     font-family: Amble-Regular;
     src: url("../fonts/Amble-Regular.ttf");
 }
-
+@font-face {
+    font-family: Amble-BoldItalic;
+    src: url("../fonts/Amble-BoldItalic.ttf");
+}
 * {
     color: black;
 }
@@ -36,7 +39,7 @@ p.center {
 
 h1 {
     margin: 12px 0 12px 0;
-    font-family: "Verdana";
+    font-family: "Amble-BoldItalic"; font-size: 50px;
     color: #64440c;
     text-shadow: 2px 2px #ffe9b9;
 }
