@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Amble-Regular;
+    src: url("../fonts/Amble-Regular.ttf");
+}
 
 * {
     color: black;
@@ -12,6 +16,7 @@ img.center {
 
 p.center {
     text-align: center;
+    font-size: 18pt;
 }
 
 .menu {
@@ -32,12 +37,21 @@ p.center {
 h1 {
     margin: 12px 0 12px 0;
     font-family: "Verdana";
+    color: #64440c;
+    text-shadow: 2px 2px #ffe9b9;
 
 }
 
 body {
     padding: 6px;
     background-image: url("../images/pozadi1.jpg");
+}
+
+#page {
+    width:95%;
+    margin: 0 auto;
+    padding: 6px;
+    font-family: Amble-Regular;
 }
 
 a {
@@ -60,7 +74,6 @@ a {
     display: flex;
     align-items: center;
 }
-
 
 .header img {
     height: 100px;
